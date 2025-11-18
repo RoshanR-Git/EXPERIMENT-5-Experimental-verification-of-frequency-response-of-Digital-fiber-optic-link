@@ -1,4 +1,3 @@
-
 Exp 5 Experimental verification of frequency response of Digital fiber optic link
 # Digital Fiber Optic Link Analysis (600nm)
 
@@ -43,35 +42,43 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ---
 
-
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="890" height="529" alt="Screenshot 2025-11-11 192121" src="https://github.com/user-attachments/assets/435b8e26-0b42-493e-9d58-2459aba62701" />
 
 ---
 
-## CONNECTION DIAGRAM  
-**Setting up a Digital Link**
 
-*(Insert connection diagram here)*
-
----
 
 ## TABULATION  
 **Transmission through Digital Link**
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+|     800        |             2.5 v            |     0.5      |  -6.02     |
+|     1k         |             32 v             |     6.4      |   16.12    |
+|     2k         |             34 v             |     6.8      |   16.65    |
+|     5k         |             36 v             |     7.2      |   17.14    |
+|     10k        |             37 v             |     7.4      |   17.38    |
+|     20k        |             37 v             |     7.4      |   17.38    |
+|     50k        |             37 v             |     7.4      |   17.38    |
+|     100k       |             27 v             |     5.4      |   14.64    |
+|     250k       |             12.7 v           |     2.54     |   8.096    |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="880" height="538" alt="Screenshot 2025-11-11 190804" src="https://github.com/user-attachments/assets/25ece563-cf37-448d-8b86-19078ca43f90" />
+
+---
+
+## GRAPH
+
+![RExp5Digital](https://github.com/user-attachments/assets/69b10b79-419b-41b1-b71e-e7f4839376e9)
 
 ---
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Thus, the experiment confirms that the 600 nm fiber optic link exhibits a stable frequency response within its mid-range and shows attenuation at higher frequencies, validating the theoretical characteristics of digital fiber transmission.
